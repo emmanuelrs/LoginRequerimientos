@@ -23,8 +23,7 @@
                 <asp:TextBox ID="txtb_email" runat="server" Width="200px"></asp:TextBox>
             </td>
             <td>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtb_email" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
-            </td>
+                &nbsp;</td>
         </tr>
         <tr>
             <td>
@@ -34,14 +33,13 @@
                 <asp:TextBox ID="txtb_password" runat="server" Width="200px" TextMode="Password"></asp:TextBox>
             </td>
             <td>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtb_password" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
-            </td>
+                &nbsp;</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td>
                 <asp:Button ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
-                <asp:Button ID="Button2" runat="server" Text="Reset" />
+                <asp:Button ID="Button2" runat="server" Text="Sign in" OnClick="Button2_Click" />
             </td>
             <td>&nbsp;</td>
         </tr>
