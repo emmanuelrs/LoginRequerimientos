@@ -31,7 +31,7 @@
                 <asp:Label ID="lbl_password" runat="server" Text="Password"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtb_password" runat="server" Width="200px"></asp:TextBox>
+                <asp:TextBox ID="txtb_password" runat="server" Width="200px" TextMode="Password"></asp:TextBox>
             </td>
             <td>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtb_password" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>

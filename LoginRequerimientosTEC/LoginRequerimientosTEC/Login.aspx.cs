@@ -29,7 +29,7 @@ namespace LoginRequerimientosTEC
             dr.Read();
             if(dr.HasRows){
                 Session["email"] = txtb_email.Text;
-                Response.Redirect("Default.aspx");
+                Response.Redirect("Home.aspx");
             }
             else
             {
