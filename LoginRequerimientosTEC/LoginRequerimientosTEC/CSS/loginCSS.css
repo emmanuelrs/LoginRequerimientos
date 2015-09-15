@@ -1,22 +1,74 @@
 ﻿body {
-    background-color:#808080;
+    background-image:url("../img/bg.jpg");
+    color:white;
 }
 table{
-    border:1px solid;
     color:#ffffff;
     border-radius:8px;
-    margin:auto;
     width:320px;
-    height:300px;
+    height:296px;
     margin-top:200px;
-    background-color:#ffffff;
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 #lbl_email{
-    color:black;
+    color:orange;
+    font-size:20px;
     font-family:Arial;
 }
 #lbl_password{
-    color:black;
+    color:orange;
+    font-size:20px;
     font-family:Arial;
+  
+}
+#lbl_email:hover{
+    color:red;
+}
+#lbl_password:hover{
+    color:red;
+}
+#txtb_password{
+    border-radius:2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    padding: 0 2px 0 4px;
+
+}
+#txtb_email{
+    border-radius:2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    padding: 0 2px 0 4px;
+}
+.button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 11px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }

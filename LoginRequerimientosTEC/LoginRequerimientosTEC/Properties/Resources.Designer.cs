@@ -61,17 +61,37 @@ namespace LoginRequerimientosTEC.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg {
+            get {
+                object obj = ResourceManager.GetObject("bg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to body {
+        ///    background-color:#808080;
         ///}
         ///table{
         ///    border:1px solid;
         ///    color:#ffffff;
         ///    border-radius:8px;
         ///    margin:auto;
-        ///    width:280px;
+        ///    width:320px;
         ///    height:300px;
         ///    margin-top:200px;
+        ///    background-color:#ffffff;
         ///
+        ///}
+        ///#lbl_email{
+        ///    color:black;
+        ///    font-family:Arial;
+        ///}
+        ///#lbl_password{
+        ///    color:black;
+        ///    font-family:Arial;
         ///}.
         /// </summary>
         internal static string loginCSS {

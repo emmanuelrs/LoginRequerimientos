@@ -17,6 +17,7 @@
             height: 30px;
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="CSS/loginCSS.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -92,10 +93,10 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Cancel" />
+                    <asp:Button ID="Button2" runat="server" class="button" OnClick="Button2_Click" Text="Cancel" />
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Register!" />
+                    <asp:Button ID="Button1" runat="server" class="button" OnClick="Button1_Click" Text="Register!" />
                 </td>
                 <td class="auto-style3"></td>
             </tr>
