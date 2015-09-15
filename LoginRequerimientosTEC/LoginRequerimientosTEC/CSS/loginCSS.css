@@ -1,0 +1,22 @@
+﻿body {
+    background-color:#808080;
+}
+table{
+    border:1px solid;
+    color:#ffffff;
+    border-radius:8px;
+    margin:auto;
+    width:320px;
+    height:300px;
+    margin-top:200px;
+    background-color:#ffffff;
+
+}
+#lbl_email{
+    color:black;
+    font-family:Arial;
+}
+#lbl_password{
+    color:black;
+    font-family:Arial;
+}
