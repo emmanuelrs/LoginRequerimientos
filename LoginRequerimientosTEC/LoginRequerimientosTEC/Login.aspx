@@ -7,23 +7,16 @@
     <title>Login Requerimientos</title>
     <style type="text/css">
         .auto-style1 {
-            width: 50%;
+            width: 61%;
         }
         .auto-style2 {
-            width: 185px;
+            width: 291px;
             text-align: center;
         }
         .auto-style3 {
-            width: 185px;
+            width: 291px;
             height: 62px;
             text-align: center;
-        }
-        .auto-style4 {
-            height: 62px;
-            width: 344px;
-        }
-        .auto-style7 {
-            width: 344px;
         }
         .auto-style8 {
             width: 557px;
@@ -45,8 +38,6 @@
             <td class="auto-style8">
                 <asp:TextBox ID="txtb_email" runat="server" Width="200px" Height="25px"></asp:TextBox>
             </td>
-            <td class="auto-style7">
-                &nbsp;</td>
         </tr>
         <tr>
             <td class="auto-style2">
@@ -55,16 +46,15 @@
             <td class="auto-style8">
                 <asp:TextBox ID="txtb_password" runat="server" Width="200px" TextMode="Password" Height="25px"></asp:TextBox>
             </td>
-            <td class="auto-style7">
-                &nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style3"></td>
+            <td class="auto-style3">
+                <asp:Button ID="Button3"  class="button" runat="server" Text="Password Recovery" OnClick="Button3_Click" />
+            </td>
             <td class="auto-style9">
                 <asp:Button ID="Button1" class="button" runat="server" Text="Login" OnClick="Button1_Click" />
                 <asp:Button ID="Button2" class="button" runat="server" Text="Sign in" OnClick="Button2_Click" />
             </td>
-            <td class="auto-style4"></td>
         </tr>
     </table>
     <div>

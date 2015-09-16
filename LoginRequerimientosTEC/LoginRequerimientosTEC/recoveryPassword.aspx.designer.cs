@@ -10,7 +10,7 @@
 namespace LoginRequerimientosTEC {
     
     
-    public partial class Login {
+    public partial class recoveryPassword {
         
         /// <summary>
         /// form1 control.
@@ -22,49 +22,40 @@ namespace LoginRequerimientosTEC {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lbl_email control.
+        /// lbl_name_recovery control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_email;
+        protected global::System.Web.UI.WebControls.Label lbl_name_recovery;
         
         /// <summary>
-        /// txtb_email control.
+        /// txtb_name_recovery control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtb_email;
+        protected global::System.Web.UI.WebControls.TextBox txtb_name_recovery;
         
         /// <summary>
-        /// lbl_password control.
+        /// lbl_email_recovery control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_password;
+        protected global::System.Web.UI.WebControls.Label lbl_email_recovery;
         
         /// <summary>
-        /// txtb_password control.
+        /// txtb_email_recovery control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtb_password;
-        
-        /// <summary>
-        /// Button3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.TextBox txtb_email_recovery;
         
         /// <summary>
         /// Button1 control.
@@ -74,14 +65,5 @@ namespace LoginRequerimientosTEC {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

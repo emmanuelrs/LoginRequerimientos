@@ -10,7 +10,7 @@
 namespace LoginRequerimientosTEC {
     
     
-    public partial class Login {
+    public partial class updatePassword {
         
         /// <summary>
         /// form1 control.
@@ -22,49 +22,58 @@ namespace LoginRequerimientosTEC {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lbl_email control.
+        /// lbl_code_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_email;
+        protected global::System.Web.UI.WebControls.Label lbl_code_update;
         
         /// <summary>
-        /// txtb_email control.
+        /// txtb_code_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtb_email;
+        protected global::System.Web.UI.WebControls.TextBox txtb_code_update;
         
         /// <summary>
-        /// lbl_password control.
+        /// lbl_newPassword_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_password;
+        protected global::System.Web.UI.WebControls.Label lbl_newPassword_update;
         
         /// <summary>
-        /// txtb_password control.
+        /// txtb_newPassoword_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtb_password;
+        protected global::System.Web.UI.WebControls.TextBox txtb_newPassoword_update;
         
         /// <summary>
-        /// Button3 control.
+        /// lbl_repeat_password_update control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Label lbl_repeat_password_update;
+        
+        /// <summary>
+        /// txt_repeatPassword_update control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_repeatPassword_update;
         
         /// <summary>
         /// Button1 control.
@@ -74,14 +83,5 @@ namespace LoginRequerimientosTEC {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }
