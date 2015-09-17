@@ -71,28 +71,88 @@ namespace LoginRequerimientosTEC.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg1 {
+            get {
+                object obj = ResourceManager.GetObject("bg1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg2 {
+            get {
+                object obj = ResourceManager.GetObject("bg2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg3 {
+            get {
+                object obj = ResourceManager.GetObject("bg3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg4 {
+            get {
+                object obj = ResourceManager.GetObject("bg4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg5 {
+            get {
+                object obj = ResourceManager.GetObject("bg5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to body {
-        ///    background-color:#808080;
+        ///    background-image:url(&quot;../img/bg.jpg&quot;);
+        ///    color:white;
         ///}
         ///table{
-        ///    border:1px solid;
         ///    color:#ffffff;
         ///    border-radius:8px;
-        ///    margin:auto;
         ///    width:320px;
-        ///    height:300px;
+        ///    height:296px;
         ///    margin-top:200px;
-        ///    background-color:#ffffff;
-        ///
+        ///    margin-left: auto;
+        ///    margin-right: auto;
+        ///    margin-bottom: auto;
         ///}
         ///#lbl_email{
-        ///    color:black;
+        ///    color:orange;
+        ///    font-size:20px;
         ///    font-family:Arial;
         ///}
         ///#lbl_password{
-        ///    color:black;
+        ///    color:orange;
+        ///    font-size:20px;
         ///    font-family:Arial;
-        ///}.
+        ///  
+        ///}
+        ///#lbl_email:hover{
+        ///    color:red;
+        ///}
+        ///#lbl_password:hover{
+        ///    color:red;
+        ///}
+        ///#tx [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string loginCSS {
             get {

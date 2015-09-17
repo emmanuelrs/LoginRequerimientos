@@ -158,9 +158,17 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <None Include="CSS\loginCSS.css" />
+    <Content Include="CSS\RecoveryCSS.css" />
+    <Content Include="CSS\RegisterCSS.css" />
+    <Content Include="CSS\UpdateCSS.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.aspx" />
     <None Include="img\bg.jpg" />
+    <None Include="img\bg1.jpg" />
+    <None Include="img\bg2.jpg" />
+    <None Include="img\bg3.jpg" />
+    <None Include="img\bg4.jpg" />
+    <None Include="img\bg5.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="packages.config" />

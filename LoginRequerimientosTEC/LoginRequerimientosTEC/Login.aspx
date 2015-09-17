@@ -7,23 +7,25 @@
     <title>Login Requerimientos</title>
     <style type="text/css">
         .auto-style1 {
-            width: 61%;
+            width: 78%;
+            top: -77px;
+            left: 223px;
         }
         .auto-style2 {
-            width: 291px;
-            text-align: center;
+            width: 463px;
+            text-align: right;
         }
         .auto-style3 {
-            width: 291px;
+            width: 463px;
             height: 62px;
-            text-align: center;
+            text-align: right;
         }
         .auto-style8 {
-            width: 557px;
+            width: 623px;
         }
         .auto-style9 {
             height: 62px;
-            width: 557px;
+            width: 623px;
         }
     </style>
     <link rel="stylesheet" type="text/css" href="CSS/loginCSS.css"/>
@@ -34,6 +36,7 @@
         <tr>
             <td class="auto-style2">
                 <asp:Label ID="lbl_email" runat="server" Text="Email"></asp:Label>
+            &nbsp;
             </td>
             <td class="auto-style8">
                 <asp:TextBox ID="txtb_email" runat="server" Width="200px" Height="25px"></asp:TextBox>
@@ -53,7 +56,7 @@
             </td>
             <td class="auto-style9">
                 <asp:Button ID="Button1" class="button" runat="server" Text="Login" OnClick="Button1_Click" />
-                <asp:Button ID="Button2" class="button" runat="server" Text="Sign in" OnClick="Button2_Click" />
+                <asp:Button ID="Button2" class="button" runat="server" Text="Register" OnClick="Button2_Click" />
             </td>
         </tr>
     </table>

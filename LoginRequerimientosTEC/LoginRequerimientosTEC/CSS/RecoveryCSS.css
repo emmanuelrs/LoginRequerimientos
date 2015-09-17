@@ -1,11 +1,14 @@
 ﻿body {
-    background-image:url("../img/bg4.jpg");
+    background-image:url("../img/bg2.jpg");
     color:white;
     no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: Arial;
+    height: 107px;
+    font-family:Arial;
 }
 table{
     position:absolute;
@@ -18,40 +21,6 @@ table{
     margin-right: auto;
     margin-bottom: auto;
 }
-#lbl_email{
-    color:orange;
-    font-size:20px;
-    font-family:Arial;
-}
-#lbl_password{
-    color:orange;
-    font-size:20px;
-    font-family:Arial;
-  
-}
-#lbl_email:hover{
-    color:red;
-}
-#lbl_password:hover{
-    color:red;
-}
-#txtb_password{
-    border-radius:2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    border: 1px solid #000000;
-    padding: 0 2px 0 4px;
-
-}
-#txtb_email{
-    border-radius:2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    border: 1px solid #000000;
-    padding: 0 2px 0 4px;
-}
 .button {
     font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
     color: rgb(255, 255, 255);
@@ -61,16 +30,12 @@ table{
     margin: 15px 0px 0px 15px;
     font-size: 18px;
     text-transform: uppercase;
-    background: #ED5E2F;
-    color: #FFF;
+    background: #FFFF32;
+    color: black;
     border: 0px none;
     outline: 0px none;
 }
 
 .button:hover {
     background: #74A599;
-}
-
-.button:active {
-    background: #F6A953;
 }

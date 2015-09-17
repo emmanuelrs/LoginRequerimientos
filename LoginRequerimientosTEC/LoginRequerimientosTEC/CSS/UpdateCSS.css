@@ -1,0 +1,38 @@
+﻿body {
+    background-image:url('../img/bg5.jpg');
+    color:white;
+    no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial;
+    height: 107px;
+    text-align: right;
+}
+table{
+    position:absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+}
+.button {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+    margin: 15px 0px 0px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #901479;
+    color: #FFF;
+    outline: 0px none;
+}
+
+.button:hover {
+    background: #74A599;
+}
