@@ -22,12 +22,67 @@ namespace LoginRequerimientosTEC
 
         protected void ImageButton1_Click1(object sender, ImageClickEventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\WINWORD.EXE", @"/a");
+            try
+            {
+                System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\WINWORD.EXE", @"/a");
+            }
+            catch(Exception)
+            {
+                
+            }
         }
 
         protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
-            System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\EXCEL.EXE", @"/a");
+            try
+            {
+                System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\EXCEL.EXE", @"/a");
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        protected void btnPowerPoint_Click(object sender, ImageClickEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\POWERPNT.EXE", @"/a");
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        protected void btnOutlook_Click(object sender, ImageClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\OUTLOOK.EXE", @"/a");
+        }
+
+        protected void btnOneNote_Click(object sender, ImageClickEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\ONENOTE.EXE", @"/a");
+            }
+            catch (Exception)
+            {
+
+            }
+        }
+
+        protected void btnOneDrive_Click(object sender, ImageClickEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\GROOVE.EXE", @"/a");
+            }
+            catch (Exception)
+            {
+
+            }
         }
     }
 }

@@ -165,6 +165,16 @@ namespace LoginRequerimientosTEC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap OneDrive {
+            get {
+                object obj = ResourceManager.GetObject("OneDrive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap onenote {
             get {
                 object obj = ResourceManager.GetObject("onenote", resourceCulture);
@@ -185,9 +195,9 @@ namespace LoginRequerimientosTEC.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap powepoint {
+        internal static System.Drawing.Bitmap powerpoint {
             get {
-                object obj = ResourceManager.GetObject("powepoint", resourceCulture);
+                object obj = ResourceManager.GetObject("powerpoint", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

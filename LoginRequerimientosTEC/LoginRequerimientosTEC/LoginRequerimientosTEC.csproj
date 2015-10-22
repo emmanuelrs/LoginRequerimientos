@@ -174,6 +174,8 @@
     <None Include="img\outlook.png" />
     <None Include="img\powepoint.jpg" />
     <None Include="img\word.png" />
+    <None Include="img\powerpoint.png" />
+    <None Include="img\OneDrive.png" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="packages.config" />

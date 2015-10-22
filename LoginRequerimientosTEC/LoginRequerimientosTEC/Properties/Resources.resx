@@ -142,14 +142,17 @@
   <data name="loginCSS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\CSS\loginCSS.css;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="OneDrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\OneDrive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="onenote" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\onenote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outlook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\outlook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="powepoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\powepoint.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="powerpoint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\powerpoint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="word" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\word.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
