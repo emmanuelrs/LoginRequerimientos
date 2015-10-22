@@ -169,6 +169,11 @@
     <None Include="img\bg3.jpg" />
     <None Include="img\bg4.jpg" />
     <None Include="img\bg5.jpg" />
+    <None Include="img\excel.png" />
+    <None Include="img\onenote.png" />
+    <None Include="img\outlook.png" />
+    <None Include="img\powepoint.jpg" />
+    <None Include="img\word.png" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="packages.config" />

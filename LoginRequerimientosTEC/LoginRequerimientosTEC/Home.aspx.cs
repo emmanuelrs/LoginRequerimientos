@@ -18,5 +18,16 @@ namespace LoginRequerimientosTEC
         {
             Response.Redirect("Logout.aspx");
         }
+
+
+        protected void ImageButton1_Click1(object sender, ImageClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\WINWORD.EXE", @"/a");
+        }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"C:\Program Files\Microsoft Office 15\root\office15\EXCEL.EXE", @"/a");
+        }
     }
 }

@@ -121,11 +121,27 @@ namespace LoginRequerimientosTEC.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap excel {
+            get {
+                object obj = ResourceManager.GetObject("excel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to body {
-        ///    background-image:url(&quot;../img/bg.jpg&quot;);
+        ///    background-image:url(&quot;../img/bg4.jpg&quot;);
         ///    color:white;
+        ///    no-repeat center center fixed; 
+        ///    -webkit-background-size: cover;
+        ///    -moz-background-size: cover;
+        ///    -o-background-size: cover;
+        ///    background-size: cover;
         ///}
         ///table{
+        ///    position:absolute;
         ///    color:#ffffff;
         ///    border-radius:8px;
         ///    width:320px;
@@ -138,25 +154,51 @@ namespace LoginRequerimientosTEC.Properties {
         ///#lbl_email{
         ///    color:orange;
         ///    font-size:20px;
-        ///    font-family:Arial;
-        ///}
-        ///#lbl_password{
-        ///    color:orange;
-        ///    font-size:20px;
-        ///    font-family:Arial;
-        ///  
-        ///}
-        ///#lbl_email:hover{
-        ///    color:red;
-        ///}
-        ///#lbl_password:hover{
-        ///    color:red;
-        ///}
-        ///#tx [rest of string was truncated]&quot;;.
+        ///   [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string loginCSS {
             get {
                 return ResourceManager.GetString("loginCSS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap onenote {
+            get {
+                object obj = ResourceManager.GetObject("onenote", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outlook {
+            get {
+                object obj = ResourceManager.GetObject("outlook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap powepoint {
+            get {
+                object obj = ResourceManager.GetObject("powepoint", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap word {
+            get {
+                object obj = ResourceManager.GetObject("word", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
