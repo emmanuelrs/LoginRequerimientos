@@ -10,7 +10,7 @@ namespace LoginRequerimientosTEC
 {
     public partial class Home : System.Web.UI.Page
     {
-        static string connection = "Server = EMMANUEL-PC;Database= requerimientos ;Integrated Security= true; user = requerimientos;  password =requerimientos";
+        static string connection = "Server = SQLSERVER-PC;Database= requerimientos ;Integrated Security= true; user = requerimientos;  password =requerimientos";
         SqlConnection myConnection = new SqlConnection(connection);
         SqlCommand cmd = new SqlCommand();
         SqlDataReader dr;
@@ -22,7 +22,7 @@ namespace LoginRequerimientosTEC
             cmd.Connection = myConnection;
            try
            {
-               cmd.CommandText = "select p.nombreProducto from Usuarios u,Producto p, UsuarioXProducto ut where u.ID_USUARIO = ut.ID_USUARIO and p.ID_Producto = ut.ID_Producto and u.email = '" + Session["email"].ToString() +"'";
+               cmd.CommandText = "select p.nombreProducto from Usuarios u,Producto p, UsuarioXProducto ut where u.ID_USUARIO = ut.ID_USUARIO and p.ID_Producto = ut.ID_Producto and u.email = " + Session["id"];
                dr = cmd.ExecuteReader();
                while (dr.Read()){
                    if (dr["nombreProducto"].ToString() == "Word"){
@@ -122,6 +122,11 @@ namespace LoginRequerimientosTEC
             {
 
             }
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Update.aspx");
         }
     }
 }

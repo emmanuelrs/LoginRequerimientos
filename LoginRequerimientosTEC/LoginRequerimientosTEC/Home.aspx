@@ -13,6 +13,8 @@
     <asp:Label ID="lbl_Welcome" runat="server" Text="&quot;&quot;"></asp:Label>
     <asp:Button ID="Button1" runat="server" class="button" OnClick="Button1_Click" Text="LogOut" />
       
+    <asp:Button ID="Button2" runat="server" class="button" OnClick="Button2_Click" Text="Update Account" CausesValidation="False" />
+      
     </div>
         
         <br />

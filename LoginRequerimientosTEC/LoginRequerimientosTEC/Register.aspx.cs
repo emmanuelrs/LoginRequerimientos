@@ -10,7 +10,7 @@ namespace LoginRequerimientosTEC
 {
     public partial class Register : System.Web.UI.Page
     {
-        static string connection = "Server = EMMANUEL-PC;Database= requerimientos ;Integrated Security= true; user = requerimientos;  password =requerimientos";
+        static string connection = "Server = SQLSERVER-PC;Database= requerimientos ;Integrated Security= true; user = requerimientos;  password =requerimientos";
         SqlConnection myConnection = new SqlConnection(connection);
         SqlCommand cmd = new SqlCommand();
         SqlDataReader dr;
@@ -27,15 +27,15 @@ namespace LoginRequerimientosTEC
             {
                 try
                 {
-                    cmd.CommandText = "INSERT INTO [dbo].[Usuarios]([ID_USUARIO],[Nombre],[Primer_Apellido],[Segundo_Apellido],[numTelefono],[email],[password])" +
+                    cmd.CommandText = "INSERT INTO Usuarios(ID_USUARIO, Nombre, Primer_Apellido, Segundo_Apellido, numTelefono, email, password)" +
                              " VALUES (NEXT VALUE FOR dbo.UserCount,'" + txtb_name.Text + "','" + txtb_first_surname.Text + "','" + txtb_second_surname.Text + "','" +lblPhone.Text + "','" + txtb_email.Text + "','" + txtb_password1.Text + "');";
                     dr = cmd.ExecuteReader();
                     Response.Redirect("Login.aspx");
                 }
-                catch
+                catch(Exception error)
                 {
                     Response.Write("Register not correct!");
-                
+                    Console.WriteLine(error.ToString());
                 }
             }
             else

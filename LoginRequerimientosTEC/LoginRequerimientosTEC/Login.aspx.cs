@@ -11,7 +11,7 @@ namespace LoginRequerimientosTEC
     public partial class Login : System.Web.UI.Page
 
     {
-        static string connection = "Server = EMMANUEL-PC;Database= requerimientos ;Integrated Security= true; user = requerimientos;  password =requerimientos";
+        static string connection = "Server = SQLSERVER-PC;Database= requerimientos ;Integrated Security= true; user = requerimientos;  password =requerimientos";
         SqlConnection myConnection = new SqlConnection(connection);
         SqlCommand cmd = new SqlCommand();
         SqlDataReader dr;
@@ -28,6 +28,7 @@ namespace LoginRequerimientosTEC
             dr = cmd.ExecuteReader();
             dr.Read();
             if(dr.HasRows){
+                Session["id"] = dr["ID_USUARIO"];
                 Session["email"] = txtb_email.Text;
                 Response.Redirect("Home.aspx");
             }
