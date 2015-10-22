@@ -67,15 +67,6 @@ namespace LoginRequerimientosTEC {
         protected global::System.Web.UI.WebControls.ImageButton btnPowerPoint;
         
         /// <summary>
-        /// btnOutlook control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton btnOutlook;
-        
-        /// <summary>
         /// btnOneNote control.
         /// </summary>
         /// <remarks>

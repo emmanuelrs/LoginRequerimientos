@@ -28,7 +28,7 @@ namespace LoginRequerimientosTEC
                 try
                 {
                     cmd.CommandText = "INSERT INTO [dbo].[Usuarios]([ID_USUARIO],[Nombre],[Primer_Apellido],[Segundo_Apellido],[email],[password])" +
-                             " VALUES (4,'"+ txtb_name.Text +"','"+txtb_first_surname.Text+"','"+txtb_second_surname.Text+"','"+txtb_email.Text+"','"+txtb_password1.Text+"');";
+                             " VALUES (NEXT VALUE FOR dbo.UserCount,'" + txtb_name.Text + "','" + txtb_first_surname.Text + "','" + txtb_second_surname.Text + "','" + txtb_email.Text + "','" + txtb_password1.Text + "');";
                     dr = cmd.ExecuteReader();
                     Response.Redirect("Login.aspx");
                 }

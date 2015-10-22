@@ -16,12 +16,11 @@
     </div>
         
         <br />
-        <asp:ImageButton ID="ImageButton1" runat="server" Height="159px" ImageUrl="~/img/word.png" OnClick="ImageButton1_Click1" Width="165px" />
-        <asp:ImageButton ID="btnExcel" runat="server" Height="169px" ImageUrl="~/img/excel.png" OnClick="ImageButton2_Click" style="margin-right: 0px" Width="165px" />
-        <asp:ImageButton ID="btnPowerPoint" runat="server" Height="180px" ImageUrl="~/img/powerpoint.png" OnClick="btnPowerPoint_Click" Width="182px" />
-        <!--<asp:ImageButton ID="btnOutlook" runat="server" ImageUrl="~/img/outlook.png" OnClick="btnOutlook_Click" Width="159px" />-->
-        <asp:ImageButton ID="btnOneNote" runat="server" ImageUrl="~/img/onenote.png" OnClick="btnOneNote_Click" style="margin-left: 21px" Width="159px" />
-        <asp:ImageButton ID="btnOneDrive" runat="server" ImageUrl="~/img/OneDrive.png" OnClick="btnOneDrive_Click" Width="169px" />
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="159px" ImageUrl="~/img/word.png" OnClick="ImageButton1_Click1" Width="165px" Visible="false" />
+        <asp:ImageButton ID="btnExcel" runat="server" Height="169px" ImageUrl="~/img/excel.png" OnClick="ImageButton2_Click" style="margin-right: 0px" Width="165px" Visible="false"/>
+        <asp:ImageButton ID="btnPowerPoint" runat="server" Height="180px" ImageUrl="~/img/powerpoint.png" OnClick="btnPowerPoint_Click" Width="182px" Visible="false"/>
+        <asp:ImageButton ID="btnOneNote" runat="server" ImageUrl="~/img/onenote.png" OnClick="btnOneNote_Click" style="margin-left: 21px" Width="159px" Visible="false" />
+        <asp:ImageButton ID="btnOneDrive" runat="server" ImageUrl="~/img/OneDrive.png" OnClick="btnOneDrive_Click" Width="169px" Visible="false"/>
         <br />
         <br />
         <br />
