@@ -32,6 +32,14 @@
             width: 357px;
             text-align: right;
         }
+        .auto-style7 {
+            width: 357px;
+            text-align: right;
+            height: 27px;
+        }
+        .auto-style8 {
+            height: 27px;
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="CSS/RegisterCSS.css"/>
     
@@ -83,6 +91,15 @@
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtb_email" ErrorMessage="RequiredFieldValidator" ForeColor="Red">*</asp:RequiredFieldValidator>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style7">
+                    Phone</td>
+                <td class="auto-style8">
+                    <asp:TextBox ID="lblPhone" runat="server" Width="200px"></asp:TextBox>
+                </td>
+                <td class="auto-style8">
                 </td>
             </tr>
             <tr>
