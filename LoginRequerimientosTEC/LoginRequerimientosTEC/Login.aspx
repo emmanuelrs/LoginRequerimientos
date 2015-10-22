@@ -57,6 +57,7 @@
             <td class="auto-style9">
                 <asp:Button ID="Button1" class="button" runat="server" Text="Login" OnClick="Button1_Click" />
                 <asp:Button ID="Button2" class="button" runat="server" Text="Register" OnClick="Button2_Click" />
+                <asp:Button ID="Button4" class="button" runat="server" Text="Delete Account" OnClick="Button4_Click" />
             </td>
         </tr>
     </table>

@@ -47,5 +47,10 @@ namespace LoginRequerimientosTEC
         {
             Response.Redirect("recoveryPassword.aspx");
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("deleteAccount.aspx");
+        }
     }
 }

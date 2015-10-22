@@ -161,6 +161,7 @@
     <Content Include="CSS\RecoveryCSS.css" />
     <Content Include="CSS\RegisterCSS.css" />
     <Content Include="CSS\UpdateCSS.css" />
+    <Content Include="deleteAccount.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Home.aspx" />
     <None Include="img\bg.jpg" />
@@ -300,6 +301,13 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="deleteAccount.aspx.cs">
+      <DependentUpon>deleteAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deleteAccount.aspx.designer.cs">
+      <DependentUpon>deleteAccount.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
